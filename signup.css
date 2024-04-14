@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: black;
+    width: 100%;
+    height: 90px;
+    position: relative;
+    top: 0px;
+    display: flex;
+
+}
+.logo{
+    background-color: black;
+    position: relative;
+    top: 20px;
+    margin-left: 20px;
+    width: 70%;
+    height: 70px;
+    
+}
+.logo a{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 10px;
+    position: relative;
+    top: 10px;
+    left: 25px;
+}
+.logo a:hover{
+    color: aqua;
+}
+.header-menu{
+    background-color: black;
+    width: 50%;
+    height: 50px;
+    margin-right: 20px;
+    position: relative;
+    top: 40px;
+}
+.header-menu ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+.header-menu a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 0px 10px;
+}
+.header-menu a:hover{
+    color: blue;
+}
+.header-menu button{
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 30px;
+    width: 171px;
+    border-radius: 12px;
+    height: 50px;
+    position: relative;
+    bottom: 15px;
+    border: 1px solid white;
+}
+.header-menu button:hover{
+    background-color:#18181835;
+}
+.resu{
+    background-color: black;
+    height: 620px;
+    width: 100%;
+    
+}.resu-main{
+    background-color: black;
+    width: 70%;
+    position: relative;
+    margin: 0px 144px;
+    margin: auto;
+    top: 50px;
+    height: 570px;
+    display: flex;
+}
+.resu-main1A{
+    background-color: black;
+    width: 580px;
+    height: 552px;
+
+}
+.resu-main2A{
+    background-color: black;
+    width: 350px;
+    height: 552px;
+
+}
+.h21 {
+    font-size: 56px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    width: 401.67px;
+    position: relative;
+    bottom: 30px;
+    height: 67.2px;
+
+}
+.fname{
+    width: 552.5px;
+    height: 100px;
+    display: flex;
+    background-color: black;
+}
+.label123{
+    width: 265.4px;
+    height: 24px;
+    margin: 0px 0px 12px;
+}
+.label123 label{
+    color: #ffffff;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.label123-1 input{
+    width: 245px;
+    height: 48px;
+    padding: 0px 12px;
+    color: black;
+    font-size: 22px;
+}
+.email123{
+    background-color:black;
+    height: 100px;
+    width: 550px;
+}
+.label123-1A input{
+    width: 520px;
+    height: 48px;
+    padding: 0px 12px;
+    color: black;
+    font-size: 22px;
+}
+.email1234{
+    background-color: black;
+    height: 55px;
+    width: 550px;
+    left: 0px;
+    
+    position: relative;
+    top: 20px;
+}
+.email1234 button{
+    width: 545px;
+    height: 54px;
+    background-color: #605ffc;
+    border-radius: 12px;
+    position: relative;
+    left: 3px;
+    border: none;
+    text-decoration: none;
+}
+.email1234 a{
+    text-decoration: none;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 4px 0px 0px;
+    padding: 10px 30px;
+    color: #ffffff;
+}
+.box125{
+    border: 2px solid white;
+    width: 259px;
+    height: 162.8px;
+padding: 20px;
+position: relative;
+top: 0px;
+left: 5px;
+
+}
+.box325{
+    width: 217.9px;
+    height: 136.2px;
+    margin-left: 10px;
+}
+#mn12{
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#mx12{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    position: relative;
+    bottom: 5px;
+}
+/*footer*/
+.footer{
+    background-color: rgb(96 95 252 / 74%);
+    background:  radial-gradient(circle at 99.92467244466145% 63.382517496744796%, #FFFFFF 0%, 17.5%, rgba(255, 255, 255, 0) 35%), radial-gradient(circle at 0% 42.7081298828125%, rgba(255, 255, 255, 0.68) 0%, 17.5%, rgba(255, 255, 255, 0) 35%), radial-gradient(circle at 3.821830749511719% 100%, #FFFFFF 0%, 11.4%, rgba(255, 255, 255, 0) 38%), radial-gradient(circle at 48.23830922444661% 0.34612019856770837%, #FFFFFF 0%, 17.16%, rgba(255, 255, 255, 0) 33%), radial-gradient(circle at 100% 0%, #FFFFFF 0%, 5.100000000000002%, rgba(255, 255, 255, 0) 17%), radial-gradient(circle at 20.600992838541668% 0%, rgba(96, 95, 252, 0.74) 0%, 30%, rgba(96, 95, 252, 0) 100%), radial-gradient(circle at 48.9013671875% 49.521484375%, #AFAFFE 0%, 100%, rgba(175, 175, 254, 0) 100%);
+    height: 700px;
+    width: 100%;
+    position: relative;
+   
+}
+.footer-menu-1A{
+    background-color: transparent;
+    height: 370px;
+    width: 100%;
+    position: relative;
+    top: 40px;
+    display: flex;
+}
+.footer-menu-1AB{
+    background-color: transparent;
+    height: 302px;
+    width: 375px;
+    
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+.footer-menu-1AB h2{
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 233.8px;
+    height: 118px;
+    font-weight: 400;
+    font-size: 52px;
+}
+.footer-menu-1AC{
+    background-color: transparent;
+    height: 302px;
+    width: 70%;
+    position: relative;
+    top: 50px;
+    left: 52px;
+
+}
+.footer-menu-1AC form{
+    width:636px;
+    height: 223.4px;
+    margin: 20px;
+    margin-top: 30px;
+}
+.footer-menu-1AC h2{
+    width: 379.3px;
+    height: 40.5px;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    }
+    .footer-menu-1AC label{
+        width: 404px;
+        height: 18px;
+        color: #000000;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0px 20px 0px 0px;
+        font-size: 18px;
+    }
+    .footer-menu-1AC input{
+        width: 394px;
+        height: 51px;
+        padding: 3px 3px 3px 0px;
+        background-color: transparent;
+        
+    border: none;
+    border-bottom: 1.5px solid black;
+    }
+    .footer-menu-1AC input:hover{
+        border-bottom: 3px solid black;
+    }
+    .footer-menu-1AC button{
+        height: 52px;
+        width: 162px;
+    margin-left: 10px;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        background-color: #605ffc;
+        border-radius: 12px;
+        border: none;
+    }
+    .footer-menu-1AC button:hover{
+        background-color: aliceblue;
+        color: black;
+    }
+    .footer-main-2{
+        background-color: transparent;
+        height: 200px;
+        width: 100%;
+    }
+    .footer-logo{
+        background-color: transparent;
+        position: relative;
+        top: 50px;
+        height: 50px;
+        margin: auto;
+        width: 93%;
+        right: 3px;
+    }
+    .footer-logo h2{
+        color: black;
+        text-decoration: none;
+        font-size: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+        position: relative;
+        
+    }
+    .footer-last{
+        width: 93%;
+        background-color: transparent;
+        margin: auto;
+        height: 80px;
+        position: relative;
+        display: flex;
+        top: 50px;
+        border-bottom: 3px solid black;
+    }
+    .last1{
+        background-color: transparent;
+        height: 70px;
+        width: 30%;
+        right: 3px;
+        position: relative;
+        top: 00px;
+    }
+  
+    .last1 p{
+        font-size: 22px;
+        margin-top: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .last2{
+        background-color: transparent;
+        height: 70px;
+        width: 30%;
+        margin-left: 0px;
+        position: relative;
+        left: 100px;
+        top: 0px;
+    }
+    
+    .last2 p,a{
+        font-size: 22px;
+        margin-top: 0px;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .last3{
+        background-color: transparent;
+        height: 70px;
+        width: 20%;
+        margin-left: 0px;
+        top: 0px;
+        position: absolute;
+        right: 0px;
+    }
+    .last3 p{
+        font-size: 22px;
+        margin-top: 0px;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .foote{
+        position: relative;
+        top: 90px;
+        left: 50px;
+        width: 80%;
+    }
+    .foote p{
+        color: black;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+    }

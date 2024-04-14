@@ -1,0 +1,594 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+   
+}
+
+.header{
+    background-color: black;
+    width: 100%;
+    height: 250px;
+    position: relative;
+    
+    display: flex;
+
+}
+.logo{
+    background-color: black;
+    position: relative;
+    top: 20px;
+    margin-left: 20px;
+    width: 70%;
+    height: 70px;
+    
+}
+.logo a{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 10px;
+    position: relative;
+    top: 10px;
+    left: 25px;
+}
+.logo a:hover{
+    color: aqua;
+}
+.header-menu{
+    background-color: black;
+    width: 50%;
+    height: 70px;
+    margin-right: 20px;
+    position: relative;
+    top: 40px;
+}
+.header-menu ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+.header-menu a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 0px 10px;
+}
+.header-menu a:hover{
+    color: blue;
+}
+.header-menu button{
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 30px;
+    width: 170px;
+    border-radius: 12px;
+    height: 50px;
+    position: relative;
+    bottom: 15px;
+    border: 1px solid white;
+}
+.header-menu button:hover{
+    background-color:#18181835;
+}
+.main-1-A{
+    background-color: black;
+    height: 950px;
+    position: relative;
+    top: -110px;
+    width: 100%;
+
+}
+.main-1-AA{
+    background-color: black;
+    height:406px;
+    position: relative;
+    top: 0px;
+    left: 50px;
+    width: 80%;
+}
+.main-1-AA h2{
+    font-size: 130px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.main-1-AA h4{
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    color: white;
+    top: 20px;
+    position: relative;
+    
+    left: 2px;
+    background-color: transparent;
+}
+.main-1-AA button{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    position: relative;
+    top: 40px;
+    border: 2px solid black;
+    
+    padding: 10px 30px;
+    background-color: #605ffc;
+}
+.main-1-AA button:hover{
+    background-color: #5f5ffccc
+}
+.main-1-AA a{text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+    
+
+}
+.image-1{
+    width: 50%;
+    height: 50px;
+    background-color:transparent;
+    position: relative;
+    bottom: 110px;
+    left: 700px;
+}
+.image-1 img{
+    width: 721.14px;
+    height: 700.13px;
+    position: relative;
+    left: 0px;
+    
+}
+.main-2-A{
+    background-color: black;
+    height: 850px;
+    position: relative;
+    bottom: 110px;
+   
+   
+}
+.main-2-AA{
+    background-color: transparent;
+    height: 900px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    position: relative;
+    bottom: 50px;
+}
+.main-2AB{
+    /* background-color: red; */
+    height: 870px;
+    top: 0px;
+    position: relative;
+    width: 50%;
+}
+.main-2AC{
+    /* background-color: yellowgreen; */
+    height: 550px;
+    top: 340px;
+    position: relative;
+    width: 50%;
+}
+.main-2AC h2{
+    width: 339.75px;
+    height: 118.4px;
+    font-size: 54px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+ #para1{
+    width: 326.51px;
+    height: 57.6px;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 20px;
+}
+ #para2{
+    width: 363.51px;
+    height: 182.6px;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 40px;
+}
+#img1{
+    height: 432px;
+    width: 322px;
+    position: relative;
+    bottom: 60px;
+}
+#img2{
+    height: 385px;
+    width: 385px;
+    position: relative;
+    left: 120px;
+    bottom: 160px;
+    z-index: 1;
+
+}
+#img3{
+    height:230px ;
+    width: 170px;
+    position: relative;
+    right: 330px;
+    top: 30px;
+    z-index: 10;
+}
+/* section-3*/
+.main-3-A{
+    background-color: black;
+    height: 700px;
+    width: 100%;
+    position: relative;
+    bottom: 110px;
+}
+.main-cont{
+    background-color: black;
+    width: 90%;
+    height: 500px;
+    position: relative;
+    top: 50px;
+    margin: auto;
+}
+.main-cont-head h2{
+    width: 50%;
+    height: 41.8px;
+    margin: auto;
+    text-align: center;
+    font-size: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+.main-cont-content-1{
+    background-color: black;
+    height: 458px;
+    width:80%;
+    position: relative;
+    margin: auto;
+    top: 60px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid white;
+}
+.main-cont-img11{
+   background-image: url(/456.jpg);
+   background-repeat: no-repeat;
+   background-size:cover ;
+    width: 340px;
+    height: 388px;
+    opacity: 0.9;
+}
+
+.BABA{
+    background-color: transparent;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: 280px;
+    opacity: 1;
+    z-index: 1;
+}
+.BABA h2{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.BABA h4{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.main-cont-img12{
+    background-image: url(/123.jpg);
+    background-repeat: no-repeat;
+   background-size:cover ;
+    width: 340px;
+    height: 388px;
+    opacity: 0.7;
+}
+.main-cont-img13{
+   background-image: url(/789.jpg);
+   background-repeat: no-repeat;
+   background-size:cover ;
+   opacity: 0.7;
+
+    width: 340px;
+    height: 388px;
+}
+/*page-4*/
+.main-4-A{
+    background-color: black;
+    height: 850px;
+    position: relative;
+    bottom: 110px;
+
+}
+.main-cont-12{
+    background-color: black;
+    width: 75%;
+    height: 750px;
+    margin: auto;
+}
+#whywl{
+    width:789px;
+    height: 42.6;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 38px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main-cont-123{
+    
+margin: auto;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: 80px;
+    display: flex;
+}
+.box12{
+    
+    width: 422px;
+    height: 422.08px;
+}
+.box12A{
+    
+    width: 60%;
+    height: 400px;
+    margin: auto;
+}
+#bsit{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}#bsit1{
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+#bsitA1{
+    font-size: 60px;
+    color: greenyellow;
+    font-family: monospace;
+text-shadow: 2px 4px red , 3px 5px yellow;
+}
+.box13{
+    
+    width: 422px;
+    height: 422.08px;
+}
+.box14{
+    
+    width: 422px;
+    height: 422.08px;
+}
+.but{
+    display: flex;
+}
+.but button{
+    position: relative;
+    right: 320px;
+    width: 178.1px;
+    height: 50px;
+    background-color: #605ffc;
+    color: #ffffff;
+    border-radius: 12px;
+    border: none;
+}
+.but button:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.but a:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.but button a{
+    color: #ffffff;
+    font-size: 18px ;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+#RTCAB{
+    width:789px;
+    height: 42.6;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*Footer*/
+.footer{
+    background-color: rgb(96 95 252 / 74%);
+    background:  radial-gradient(circle at 99.92467244466145% 63.382517496744796%, #FFFFFF 0%, 17.5%, rgba(255, 255, 255, 0) 35%), radial-gradient(circle at 0% 42.7081298828125%, rgba(255, 255, 255, 0.68) 0%, 17.5%, rgba(255, 255, 255, 0) 35%), radial-gradient(circle at 3.821830749511719% 100%, #FFFFFF 0%, 11.4%, rgba(255, 255, 255, 0) 38%), radial-gradient(circle at 48.23830922444661% 0.34612019856770837%, #FFFFFF 0%, 17.16%, rgba(255, 255, 255, 0) 33%), radial-gradient(circle at 100% 0%, #FFFFFF 0%, 5.100000000000002%, rgba(255, 255, 255, 0) 17%), radial-gradient(circle at 20.600992838541668% 0%, rgba(96, 95, 252, 0.74) 0%, 30%, rgba(96, 95, 252, 0) 100%), radial-gradient(circle at 48.9013671875% 49.521484375%, #AFAFFE 0%, 100%, rgba(175, 175, 254, 0) 100%);
+    height: 700px;
+    width: 100%;
+    position: relative;
+    bottom: 110px;
+}
+.footer-menu-1A{
+    background-color: transparent;
+    height: 370px;
+    width: 100%;
+    position: relative;
+    top: 40px;
+    display: flex;
+}
+.footer-menu-1AB{
+    background-color: transparent;
+    height: 302px;
+    width: 375px;
+    
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+.footer-menu-1AB h2{
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 233.8px;
+    height: 118px;
+    font-weight: 400;
+    font-size: 52px;
+}
+.footer-menu-1AC{
+    background-color: transparent;
+    height: 302px;
+    width: 70%;
+    position: relative;
+    top: 50px;
+    left: 52px;
+
+}
+.footer-menu-1AC form{
+    width:636px;
+    height: 223.4px;
+    margin: 20px;
+    margin-top: 30px;
+}
+.footer-menu-1AC h2{
+    width: 379.3px;
+    height: 40.5px;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    }
+    .footer-menu-1AC label{
+        width: 404px;
+        height: 18px;
+        color: #000000;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0px 20px 0px 0px;
+        font-size: 18px;
+    }
+    .footer-menu-1AC input{
+        width: 394px;
+        height: 51px;
+        padding: 3px 3px 3px 0px;
+        background-color: transparent;
+        
+    border: none;
+    border-bottom: 1.5px solid black;
+    }
+    .footer-menu-1AC input:hover{
+        border-bottom: 3px solid black;
+    }
+    .footer-menu-1AC button{
+        height: 52px;
+        width: 162px;
+    margin-left: 10px;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        background-color: #605ffc;
+        border-radius: 12px;
+        border: none;
+    }
+    .footer-menu-1AC button:hover{
+        background-color: aliceblue;
+        color: black;
+    }
+    .footer-main-2{
+        background-color: transparent;
+        height: 200px;
+        width: 100%;
+    }
+    .footer-logo{
+        background-color: transparent;
+        position: relative;
+        top: 50px;
+        height: 50px;
+        margin: auto;
+        width: 93%;
+        right: 3px;
+    }
+    .footer-logo h2{
+        color: black;
+        text-decoration: none;
+        font-size: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+        position: relative;
+        
+    }
+    .footer-last{
+        width: 93%;
+        background-color: transparent;
+        margin: auto;
+        height: 80px;
+        position: relative;
+        display: flex;
+        top: 50px;
+        border-bottom: 3px solid black;
+    }
+    .last1{
+        background-color: transparent;
+        height: 70px;
+        width: 30%;
+        right: 3px;
+        position: relative;
+        top: 00px;
+    }
+  
+    .last1 p{
+        font-size: 22px;
+        margin-top: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .last2{
+        background-color: transparent;
+        height: 70px;
+        width: 30%;
+        margin-left: 0px;
+        position: relative;
+        left: 100px;
+        top: 0px;
+    }
+    
+    .last2 p,a{
+        font-size: 22px;
+        margin-top: 0px;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .last3{
+        background-color: transparent;
+        height: 70px;
+        width: 20%;
+        margin-left: 0px;
+        top: 0px;
+        position: absolute;
+        right: 0px;
+    }
+    .last3 p{
+        font-size: 22px;
+        margin-top: 0px;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .foote{
+        position: relative;
+        top: 90px;
+        left: 50px;
+        width: 80%;
+    }
+    .foote p{
+        color: black;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+  
