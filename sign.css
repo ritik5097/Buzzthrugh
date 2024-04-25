@@ -1,92 +1,144 @@
-
 *{
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
-.sign-home{
+.signin-menu{
     background-color: black;
     height: 690px;
+    width: 100%;
 }
-.sign-home-class{
-    background-color: transparent;
-    margin-top: 10px;
-    height: 100px;
-} 
-.sign-home-class button{
-    width: 100px;
-    height: 100px;
-    float: right;
-    margin-top: 20px;
-    margin-right: 100px;
-    background-color: transparent;
-    border: none;
-}
-.sign-home-class button a{
-    text-decoration: none;
-    font-size: 26px;
-   font-family: arial;
-   color: aliceblue;
-}
-.sign-home-class button a:hover{
-    text-shadow: 25px 20px 50px red;
-}
-.sign-home-class-1{
-    background-color:transparent;
-    height: 550px;
-}
-.sign-home-class-1-21{
-    background-color: transparent;
-    width: 70%;
+.signin-menu-1{
+    width: 25%;
     margin: auto;
+    height: 420px;
+    background-color: #ffffff;
     position: relative;
-    top: 110px;
-    height: 350px;
-
+    top: 100px;
 }
-#h12324{
-    background-color: transparent;
-    text-align: center;
-    font-family: arial;
-    font-size: 48px;
-    color: white;
-}
-#p12324{
-    background-color: transparent;
-    text-align: center;
+.signin-menu-1-A{
     position: relative;
-    top: 30px;
-    font-size: 18px;
-    font-family: sans-serif;
-    color: white;
-    padding: 0px 0px 44px;
-}
-.sigbutton{
-    background-color: transparent;
-    margin-top: 40px;
-    text-align: center;
-}
-.sigbutton button{
-    width: 140px;
-    height: 50px;
-    background-color: #605ffc;
-    text-align: center;
-    color: white;
-    border: none;
-    padding: 0px 40px;
+    top: 5px;
+    font-size: 26px;
+    width: 50%;
     
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.sigbutton button:hover{background-color: #5f5ffcdb;
-    
-}
-.sigbutton button a{
-    text-decoration: none;
+.signin-menu-1-B{
+    position: relative;
+    top: 7px;
+    color: black;
     font-size: 16px;
-
-    padding: 0px 0px 44px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
 }
-.sigbutton button a::after{
-    color: orange;
+.signin-menu-1-C{
+    position: relative;
+    top: 15px;
+}
+.signin-menu-1-C label{
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.signin-menu-1-C sup{
+    color: red;
+    font-size: 20px;
+}
+.signin-menu-1-C input{
+    height: 45px;
+    width: 320px;
+    padding-left: 20px;
+    margin-top: 5px;
+    font-size: 17px;
+    border-radius: 5px;
+    outline: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+.signin-menu-1-D{
+    position: relative;
+    top: 20px;
+}
+.signin-menu-1-D label{
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.signin-menu-1-D sup{
+    color: red;
+    font-size: 20px;
+}
+.signin-menu-1-D input{
+    height: 45px;
+    width: 320px;
+    border-radius: 5px;
+    padding-left: 20px;
+    margin-top: 5px;
+    font-size: 17px;
+    outline: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+.signin-menu-1-E{
+    position: relative;
+    top: 35px;
+    width: 150px;
+    height: 35px;
+}
+.signin-menu-1-E a{
+    font-size: 17px;
+    text-decoration: none;
+    position: relative;
+    left: 8px;
+    top: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.signin-menu-1-E:hover{
+    border:none;
+    border-radius: 25px;
+    background-color: #0a66c24f;
+}
+.signin-menu-1-F{
+    position: relative;
+    top: 55px;
+}
+.signin-menu-1-F button{
+    height: 45px;
+    width: 340px;
+    position: relative;
+    left: 0px;
+    border-radius: 25px;
+    color: white;
+    background-color: #0A66C2;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 8px 16px;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.signin-menu-1-F button:hover{
+    background-color: #0a66c2aa;
+    color: #ffffff;
+}
+.signin-menu-11-A{
+    padding: 16px 16px;
+    height: 380px;
+}
+.signin-menu-1-A-B-1{
+    display: flex;
+}
+.signin-menu-1-A-x{
+    position: relative;
+    top: -20px;
+    font-size: 32px;
+    width: 50%;
+    text-align: end;
+    right: 10px;
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.signin-menu-1-A-x a{
+    text-decoration: none;
+    
 }
