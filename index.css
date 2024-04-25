@@ -8,7 +8,7 @@
 .header{
     background-color: black;
     width: 100%;
-    height: 250px;
+    height: 100px;
     position: relative;
     
     display: flex;
@@ -79,7 +79,7 @@
     background-color: black;
     height: 950px;
     position: relative;
-    top: -110px;
+    
     width: 100%;
 
 }
@@ -134,7 +134,7 @@
     height: 50px;
     background-color:transparent;
     position: relative;
-    bottom: 110px;
+    
     left: 700px;
 }
 .image-1 img{
@@ -148,7 +148,7 @@
     background-color: black;
     height: 850px;
     position: relative;
-    bottom: 110px;
+    
    
    
 }
@@ -229,7 +229,7 @@
     height: 700px;
     width: 100%;
     position: relative;
-    bottom: 110px;
+    
 }
 .main-cont{
     background-color: black;
@@ -310,7 +310,7 @@
     background-color: black;
     height: 850px;
     position: relative;
-    bottom: 110px;
+    
 
 }
 .main-cont-12{
@@ -417,7 +417,7 @@ text-shadow: 2px 4px red , 3px 5px yellow;
     height: 700px;
     width: 100%;
     position: relative;
-    bottom: 110px;
+    bottom: 0px;
 }
 .footer-menu-1A{
     background-color: transparent;
