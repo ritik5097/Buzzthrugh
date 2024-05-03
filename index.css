@@ -4,11 +4,6 @@
    
    
 }
- @media screen and (max-width: 600px) {
-    .header,.header-menu,.main-1-A{
-        width: 100px;
-    }
- }
 .header{
     background-color: black;
     width: 100%;
